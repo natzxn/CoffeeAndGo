@@ -1,0 +1,70 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(./images/pizza-time-tasty-homemade-traditional-pizza-italian-recipe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* HEADER */
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 10vh;
+    padding: 10px 30px;
+    background: rgba(0, 0, 0, 0.278);
+}
+
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    padding: 15px 35px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.menu {
+    background-color: red;
+    border-radius: 20px;
+    
+}
+
+.cart img {
+    padding: 0 20px 0 30px;
+}
+
+/* BANNER SLIDER */
+
+p {
+    position:absolute;
+    left: 850px;
+    top: 230px;
+    font-family: 'Gluten', cursive;
+    color:#ffffff;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+p .hungry {
+    color: rgb(254, 73, 73);
+    font-size: 60px;
+}
+
+/* */
+
+/* */
+
+
+/* */
