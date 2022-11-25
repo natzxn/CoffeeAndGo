@@ -1,42 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fast and Food</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-    <link href="https://fonts.googleapis.com/css2?family=Gluten&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!--HEADER-->
-      <nav>
-        <ul class="navbar">
-          <li><a href="#">LOG IN</a></li>
-          <li><a href="#">REGISTER</a></li>
-          <li class="menu"><a href="#">MENU</a></li>
-        </ul>
-        <div class="cart"><img src="./images/iconmonstr-basket-2-48.png" width="40">
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== Favicon ===============-->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/png"/>
+    <!--=============== Swiper CSS ===============-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!--=============== Boxicons ===============-->
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet"/>
+    <!--=============== Custom StyleSheet ===============-->
+    <link rel="stylesheet" href="./scss/styles.css"/>
+    <title>Coffee and go!</title>
+  </head>
+  <body>
+    <!--=============== Header ===============-->
+    <header class="header">
+      <nav class="navbar">
+        <div class="row d-flex container">
+          <a href="" class="logo d-flex">
+            <img src="./images/CoffeeTalk_Vector-White.png" alt="This is logo" width="100">
+          </a>
+
+          <ul class="nav-list d-flex">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Shop</a>
+            <a href="">Recipes</a>
+            <a href="">Contact</a>
+            <div class="close">
+              <i class='bx bx-x'></i>
+            </div>
+          </ul>
+
+          <div class="col d-flex">
+            <form action="">
+              <input type="search" placeholder="Search for more">
+              <button class="d-flex"><i class='bx bx-search bx-tada'></i></button>
+            </form>
+            <div class="cart-icon d-flex">
+              <i class='bx bx-shopping-bag' ></i>
+              <span>0</span>
+            </div>
+            <a href="" class="btn signin">Sign In</a>
+          </div>
+
+          <!--============= Menu 'hamburger' ===============-->
+          <div class="hamburger d-flex">
+            <i class='bx bx-menu' ></i>
+          </div>
+        </div>
       </nav>
-      
 
-    <!--BANNER SECTION-->
+      <!--=============== Home ===============-->
+      <div class="home">
+        <div class="row container">
+          <div class="col">
+            <div class="faster">
+              More than coffee 
+              <div class="image d-flex">
+                <img src="./images/morethan.png" alt="">
+              </div>
+            </div>
+            <h1>
+              Discover<br>the taste of<br> <span class="color">real coffee</span>
+            </h1>
+            <p>
+              Our coffee is brewed by first roasting the green coffee beans over hot coals in a brazier given an opportunity to sample.
+            </p>
+            <a href="" class="btn">Explore coffee</a>
+
+
+          </div>
+          <div class="col">
+            <img src="./images/ab81082ab3e7bb16c38e5246352578f9-removebg.png" alt="banner">
+          </div>
+        </div>
+      </div>
+
+
+      <!--=============== SignIn Form ===============-->
+    <div class="wrapper">
+      <form action="" class="form">
+        <h2>SIGN IN</h2>
+
+        <div class="control">
+          <label for="">Enter Email:</label>
+          <input type="email" placeholder="Enter Your Email">
+        </div>
+        <div class="control">
+          <label for="">Password:</label>
+          <input type="password" placeholder="Password">
+        </div>
+        <div class="checkbox d-flex">
+          <input type="checkbox">
+          <span>Remember Me</span>
+        </div>
+        <button class="btn">Sign In</button>
+        <div class="links">
+          <span>Forgot Password? <a href="">Click Here</a></span>
+          <span>Don't Have An Account? <a href="">Create One</a></span>
+        </div>
+      </form>
+
+      <div class="close-form">
+        <i class='bx bx-x'></i>
+      </div>
+    </div>
     
-    <p><span class="hungry">Hungry?</span><br><br>Our pizzas can solve this problem.</p>
+    
+    </header>
 
-    <!--BEST SELLERS-->
+    <!--=============== Services ===============-->
 
+    <!--=============== About ===============-->
 
+    <!--=============== Recipes ===============-->
 
+    <!--=============== Testimonials ===============-->
 
+    <!--=============== App ===============-->
 
-    <!--FOOTER-->
+    <!--=============== Footer ===============-->
 
+    <!--=============== Swiper JS ===============-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-
-    <!--JAVASCRIPT-->
-    <script src="./script.js"></script>
-</body>
+    <!--=============== Custom JS ===============-->
+    <script src="./js/testimonial.js"></script>
+    <script src="./js/products.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
