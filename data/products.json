@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Coffee Latte",
+      "price": "15.00",
+      "url": "./images/drink1.png",
+      "category": "Basic Coffee"
+    },
+    {
+      "id": 2,
+      "title": "Black Coffee",
+      "price": "10.00",
+      "url": "./images/drink2.png",
+      "category": "Basic Coffee"
+    },
+    {
+      "id": 3,
+      "title": "Cappuccino",
+      "price": "13.00",
+      "url": "./images/drink3.png",
+      "category": "Basic Coffee"
+    },
+    {
+      "id": 4,
+      "title": "Chocolate Coffee",
+      "price": "17.00",
+      "url": "./images/drink4.png",
+      "category": "Sweet Coffee"
+    },
+    {
+      "id": 5,
+      "title": "Ice Coffee",
+      "price": "19.00",
+      "url": "./images/drink5.png",
+      "category": "Sweet Coffee"
+    },
+    {
+      "id": 6,
+      "title": "Coffee with sweets",
+      "price": "25.00",
+      "url": "./images/drink6.png",
+      "category": "Sweet Coffee"
+    },
+    {
+      "id": 7,
+      "title": "Flavored tea",
+      "price": "8.00",
+      "url": "./images/drink7.png",
+      "category": "Other"
+    },
+    {
+      "id": 8,
+      "title": "Coffee to go",
+      "price": "10.00-20.00",
+      "url": "./images/drink8.png",
+      "category": "Basic Coffee"
+    },
+    {
+      "id": 9,
+      "title": "Water",
+      "price": "4.00",
+      "url": "./images/drink9.png",
+      "category": "Other"
+    }
+  ]
+}
