@@ -1,0 +1,33 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Jack Dawson",
+      "firstName": "jack",
+      "position": "Graphic designer",
+      "info": "“The best lattes under the sun. A wonderful place to spend time alone or with friends. I also like the possibility of home delivery when we miss coffee and want to have it at home.”",
+      "class": "active"
+    },
+    {
+      "id": 2,
+      "name": "Mike Wazowski",
+      "firstName": "mike",
+      "position": "Management specialist",
+      "info": "“I like this variety, and the possibility of creating a sweet coffee with various sweets. I am a foodie and I love sweets, so you bought me this option!”"
+    },
+    {
+      "id": 3,
+      "name": "Stephen Hawking",
+      "firstName": "stephen",
+      "position": "Consumer advisor",
+      "info": "“Fast and hassle-free delivery. And the coffee? Really tasty, it's great that I can order it ready to take home, and also make my own from the beans.”"
+    },
+    {
+      "id": 4,
+      "name": "Mary Jane Watson",
+      "firstName": "mary",
+      "position": "Automation tester",
+      "info": "“This place is very different and well organized according to other places. The food is amazing, music of your choice. The owner is very sweet… Ever the best café. The cost is fair for everything and the atmosphere is good.”"
+    }
+  ]
+}
